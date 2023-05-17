@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    width: 100%;
+    height: 10vh;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: none;
+    margin-left: 300px;
+    position: relative;
+    top: 4vh;
+  } 
+  img {
+    width: 100vw;
+    height: 80vh;
+    
+  }
+  #main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #main div {
+    width: 70px;
+    height: 70px;
+  }
+  .aluno {
+    margin-left: 3vw;
+    border-radius: 100%;
+    background-color: blue;
+    box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+    -moz-box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+
+  }
+  .atividade {
+    margin-left: 3vw;
+    background-color: aqua;
+    box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+    -moz-box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+
+
+  }
+  .prova{
+    margin-left: 3vw ;
+    background-color: aquamarine;
+    box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+    -moz-box-shadow: 29px 31px 17px -10px rgba(0,0,0,0.65);
+
+
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+
